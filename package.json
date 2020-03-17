@@ -1,17 +1,29 @@
 {
-  "name": "note-taker",
+  "name": "note_taker",
   "version": "1.0.0",
-  "description": "App that helps you to take down notes online.",
+  "description": "Description\r Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
   },
-  
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenalbe/note_taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "author": "Ta-Chung Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenalbe/note_taker/issues"
+  },
+  "homepage": "https://github.com/chenalbe/note_taker#readme"
 }
